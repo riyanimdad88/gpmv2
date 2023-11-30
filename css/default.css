@@ -1,4 +1,4 @@
-﻿/*!
+/*!
 * Created by Kroplet (https://www.kroplet.com) 
 * The easiest way to create Bootstrap 4 themes. 
 */
@@ -13,10 +13,14 @@
 max-width: 12.5vw;
 }
 .logo2{
-  max-height:35px;
+  max-height:100px;
 }
-
-
+.margin{
+  margin-top: 10px;
+}
+.margin1{
+  margin-top: -50px;
+}
 :root {
   --blue: #2979ff;
   --indigo: #3d5afe;
