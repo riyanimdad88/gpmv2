@@ -9,11 +9,27 @@
 * Copyright 2011-2017 Twitter, Inc. 
 * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)*/
 
+.underline{
+  text-decoration: underline;
+  
+}
 .logo{
 max-width: 12.5vw;
 }
 .logo2{
   max-height:100px;
+}
+.logosbottom{
+  max-height: 200px;
+  max-width: 250px;
+  margin-left: -35px;
+  margin-top: -15px;
+}
+.huawei{
+  max-height: 75px;
+  max-width: 75px;
+  margin-left: 35px;
+
 }
 .margin{
   margin-top: 10px;
