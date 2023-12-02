@@ -14,21 +14,21 @@
   
 }
 .logo{
-max-width: 12.5vw;
+max-width: 60%;
 }
 .logo2{
   max-height:100px;
 }
 .logosbottom{
-  max-height: 200px;
-  max-width: 250px;
+  max-height: 150px;
+  max-width: 200px;
   margin-left: -35px;
   margin-top: -15px;
 }
 .huawei{
-  max-height: 75px;
-  max-width: 75px;
-  margin-left: 35px;
+  max-height: 50px;
+  max-width: 50px;
+
 
 }
 .margin{
