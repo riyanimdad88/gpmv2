@@ -28,8 +28,6 @@ max-width: 90%;
 .huawei{
   max-height: 50px;
   max-width: 50px;
-
-
 }
 .margin{
   margin-top: 10px;
@@ -37,6 +35,12 @@ max-width: 90%;
 .margin1{
   margin-top: -50px;
 }
+.deletestyle{
+  margin: 15px;
+  text-align: center;
+}
+
+
 :root {
   --blue: #2979ff;
   --indigo: #3d5afe;
