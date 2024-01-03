@@ -94,7 +94,7 @@ body {
   margin: 0;
   padding: 0;
   /* Set the background image and specify its properties */
-  background-image: url('.assets/background.jpeg'); /* Replace 'path/to/your/image.jpg' with the path to your image */
+  background-image: url('/assets/background.jpeg'); /* Replace 'path/to/your/image.jpg' with the path to your image */
   background-size: cover; /* Adjusts the size of the background image */
   background-repeat: no-repeat; /* Prevents the background image from repeating */
   /* Add any additional styles */
