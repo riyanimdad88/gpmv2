@@ -9,21 +9,31 @@
 * Copyright 2011-2017 Twitter, Inc. 
 * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)*/
 
-.underline{
-  text-decoration: underline;
-  
+.underline {
+    text-decoration: underline;
+    margin-left: -50px;
+}
+element.style {
+    margin-top: -3px;
 }
 .logo{
 max-width: 90%;
 }
 .logo2{
-  max-height:100px;
+  max-height:70px;
 }
-.logosbottom{
-  max-height: 150px;
-  max-width: 200px;
-  margin-left: -35px;
-  margin-top: -15px;
+
+.playstore {
+    max-height: 131px;
+    max-width: 134px;
+    margin-top: -40px;
+    margin-left: -45px;
+}
+
+.apple {
+    max-height: 50px;
+    max-width: 50px;
+    margin-left: -27px;
 }
 .huawei{
   max-height: 50px;
@@ -118,6 +128,7 @@ hr {
 
 h1, h2, h3, h4, h5, h6 {
   margin-top: 0;
+  margin-right: -11px;
   margin-bottom: 1rem; }
 
 p {
@@ -183,7 +194,7 @@ sup {
   top: -.5em; }
 
 a {
-  color: #1de9b6;
+  color: #ffffff;
   text-decoration: none;
   background-color: transparent;
   -webkit-text-decoration-skip: objects; }
