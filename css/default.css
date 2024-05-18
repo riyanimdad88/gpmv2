@@ -36,6 +36,26 @@ max-width: 90%;
   max-height:70px;
 }
 
+/* Social media icon styling */
+.social-icons {
+    text-align: center;
+    margin-top: 15px;
+}
+
+.social-icons a
+/*{
+    margin: 0 10px;
+    font-size: 20px;
+    transition: color 0.3s;
+}*/
+
+.social-icons .facebook { color: #3b5998; }
+.social-icons .twitter { color: #1da1f2; }
+.social-icons .instagram { color: #e4405f; }
+.social-icons .linkedin { color: #0077b5; }
+.social-icons .tiktok { color: #010101; }
+.social-icons .snapchat { color: #fffc00; }
+
 .playstore {
     max-height: 131px;
     max-width: 134px;
@@ -61,7 +81,7 @@ max-width: 90%;
 .deletestyle{
     max-height: 33px;
     max-width: 134px;
-    margin-top: 69px;
+    margin-top: 50px;
     margin-left: 9px;
 }
 
@@ -209,7 +229,7 @@ sup {
   top: -.5em; }
 
 a {
-  color: #ffffff;
+  color: #3b5998;
   text-decoration: none;
   background-color: transparent;
   -webkit-text-decoration-skip: objects; }
