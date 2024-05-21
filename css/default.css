@@ -16,6 +16,15 @@
     align-items: center;
 }
 
+.selectcountry {
+    text-align: center;
+    font-weight: bold;
+    text-decoration: underline;
+    padding: 0px;
+    margin-top: 28px;
+    margin-bottom: -10px;
+}
+
 .centered-div {
     text-align: center;
     text-decoration: underline;
