@@ -10,6 +10,50 @@
 * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)*/
 
 
+.fa-android:before {
+    content: "\f17b";
+    margin-left: 14px;
+}
+.app-store-icons {
+        display: flex;
+        justify-content: center;
+        margin-top: 10px;
+    }
+
+    .app-store-icon {
+        font-size: 18px; /* Reduced icon size */
+        margin: 0 5px;
+        color: #faf9f9;
+        transition: all 0.3s ease;
+    }
+
+    .app-store-icon:hover {
+        transform: scale(1.2);
+    }
+
+    .app-store-icon.android:hover {
+        color: #3DDC84;
+    }
+
+    .app-store-icon.apple:hover {
+        color: #000000;
+    }
+
+    /* Responsive styles */
+    @media (max-width: 767px) {
+        .feature-boxes .box {
+            margin-bottom: 20px;
+        }
+        .logo2 {
+            max-width: 100%;
+            height: auto;
+        }
+        .playstore, .apple, .huawei {
+            max-width: 100%;
+            height: auto;
+        }
+    }
+
 .container1 {
     display: flex;
     flex-direction: column;
