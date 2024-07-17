@@ -28,6 +28,48 @@
 
     <!-- Bootstrap CSS / Color Scheme -->
     <link rel="stylesheet" href="css/default.css" id="theme-color">
+    
+    <style>
+    .app-store-icons {
+        display: flex;
+        justify-content: center;
+        margin-top: 10px;
+    }
+
+    .app-store-icon {
+        font-size: 18px; /* Reduced icon size */
+        margin: 0 5px;
+        color: #faf9f9;
+        transition: all 0.3s ease;
+    }
+
+    .app-store-icon:hover {
+        transform: scale(1.2);
+    }
+
+    .app-store-icon.android:hover {
+        color: #3DDC84;
+    }
+
+    .app-store-icon.apple:hover {
+        color: #000000;
+    }
+
+    /* Responsive styles */
+    @media (max-width: 767px) {
+        .feature-boxes .box {
+            margin-bottom: 20px;
+        }
+        .logo2 {
+            max-width: 100%;
+            height: auto;
+        }
+        .playstore, .apple, .huawei {
+            max-width: 100%;
+            height: auto;
+        }
+    }
+    </style>
 </head>
 <body>
 
@@ -38,28 +80,6 @@
             <a class="navbar-brand heading-black" href="index.html">
                 
             </a>
-            <!-- <button class="navbar-toggler navbar-toggler-right border-0" type="button" data-toggle="collapse"
-                    data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false"
-                    aria-label="Toggle navigation">
-                <span data-feather="grid"></span>
-            </button> -->
-            <!-- <div class="collapse navbar-collapse" id="navbarCollapse">
-                <ul class="navbar-nav ml-auto">
-                    <li class="nav-item">
-                        <a class="nav-link page-scroll" href="#features">Features</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link page-scroll" href="#pricing">Pricing</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link page-scroll" href="#faq">FAQ</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link page-scroll" href="#blog">Blog</a>
-                    </li>
-                 
-                </ul>
-            </div> -->
         </nav>
     </div>
 </section>
@@ -69,17 +89,14 @@
     <div class="container">
         <div class="row">
             <div class="col-md-6 mx-auto text-center margin1">
-                <!-- <h2 class="heading-black"> GoPlay offers everything you need.</h2> -->
-               
                 <div class="row feature-boxes">
                     <div class="col-md-4 box"><h4 class="heading-black">VOD</h4>
-                    <p>Vast selection of your favorite movies, TV series, documentaries and much more</p>
+                    <p>600+ of your favorite movies, TV series, documentaries and much more</p>
                     </div>
                     <div class="col-md-4 box">
                         <img  src="./assets/GPM-ICON.png" alt="Logo" class="logo">
                                                  <div class="social-icons">
                                 <a href="https://www.facebook.com/profile.php?id=61559539767257" class="social-icon facebook"><i class="fa-brands fa-facebook"></i></a>
-                                <!-- <a href="https://www.twitter.com" class="social-icon twitter"><i class="fa-brands fa-twitter"></i></a> -->
                                 <a href="https://www.instagram.com/goplay.market" class="social-icon instagram"><i class="fa-brands fa-instagram"></i></a>
                                 <a href="https://www.linkedin.com/in/goplay-market-83a4a6306/" class="social-icon linkedin"><i class="fa-brands fa-linkedin"></i></a>
                                 <a href="https://www.tiktok.com" class="social-icon tiktok"><i class="fa-brands fa-tiktok"></i></a>
@@ -87,7 +104,7 @@
                             </div>
                     </div>
                     <div class="col-md-4 box"><h4 class="heading-black">TV</h4>
-                        <p>100+ Live TV Channels covering News, Sports, Entertainment and more</p>
+                        <p>100+ Live TV Channels covering News, Sports & Entertainment</p>
                     
                     </div>
 
@@ -97,99 +114,133 @@
             </div>
         </div>
 
-<!--         <div class="row mt-5">
+        <div class="row mt-5">
             <div class="col-md-10 mx-auto">
                 <div class="row feature-boxes">
                     <div class="col-md-2 box">
                         <div class="icon-box box-primary">
                             <div class="icon-box-inner">
-                                <img  src="./assets/Oman.png" alt="Logo" class="logo2">
+                                <a href="https://play.google.com/store/apps/details?id=com.goplaymarket.omn&hl=en&gl=US" class="cta-link">
+                                    <img src="./assets/Oman1.png" alt="Oman Logo" class="logo2">
+                                </a>
                             </div>
                         </div>
                         <h5>Oman</h5>
-                         
-                    </div> -->
-                      <div class="row mt-5">
-                    <div class="col-md-10 mx-auto">
-                      <div class="row feature-boxes">
-                        <div class="col-md-2 box">
-                            <div class="icon-box box-primary">
-                              <div class="icon-box-inner">
-                                <a href="https://play.google.com/store/apps/details?id=com.goplaymarket.omn&hl=en&gl=US" class="cta-link">
-                                <img src="./assets/Oman1.png" alt="Oman Logo" class="logo2">
-                                </a>
-                            </div>
-                            </div>
-                            <h5>Oman</h5>
-                          </a>
+                        <div class="app-store-icons">
+                            <a href="https://play.google.com/store/apps/details?id=com.goplaymarket.omn&hl=en&gl=US" class="app-store-icon android">
+                                <i class="fab fa-android"></i>
+                            </a>
+                            <a href="https://apps.apple.com/om/app/goplaymarket/id6499340108" class="app-store-icon apple">
+                                <i class="fab fa-apple"></i>
+                            </a>
                         </div>
+                    </div>
                     
                     <div class="col-md-2 box">
                         <div class="icon-box box-success">
                             <div class="icon-box-inner">
-                                  <a href="https://play.google.com/store/apps/details?id=com.goplaymarket.kwt" class="cta-link">
-                                <img src="./assets/Kuwait.png" alt="Kuwait Logo" class="logo2">
+                                <a href="https://play.google.com/store/apps/details?id=com.goplaymarket.kwt" class="cta-link">
+                                    <img src="./assets/Kuwait.png" alt="Kuwait Logo" class="logo2">
                                 </a>
                             </div>
                         </div>
                         <h5>Kuwait</h5>
-                         
+                        <div class="app-store-icons">
+                            <a href="https://play.google.com/store/apps/details?id=com.goplaymarket.kwt" class="app-store-icon android">
+                                <i class="fab fa-android"></i>
+                            </a>
+                            <a href="https://apps.apple.com/kw/app/goplaymarket-kuwait/id6502258171" class="app-store-icon apple">
+                                <i class="fab fa-apple"></i>
+                            </a>
+                        </div>
                     </div>
                     <div class="col-md-2 box">
                         <div class="icon-box box-danger">
                             <div class="icon-box-inner">
-                                   <a href="https://play.google.com/store/apps/details?id=com.goplaymarket.tun" class="cta-link">
-                                <img src="./assets/Tunisia.png" alt="Tunisia Logo" class="logo2">
+                                <a href="https://play.google.com/store/apps/details?id=com.goplaymarket.tun" class="cta-link">
+                                    <img src="./assets/Tunisia.png" alt="Tunisia Logo" class="logo2">
                                 </a>
                             </div>
                         </div>
                         <h5>Tunisia</h5>
-                         
+                        <div class="app-store-icons">
+                            <a href="https://play.google.com/store/apps/details?id=com.goplaymarket.tun" class="app-store-icon android">
+                                <i class="fab fa-android"></i>
+                            </a>
+                            <a href="#" class="app-store-icon apple">
+                                <!-- <i class="fab fa-apple"></i> -->
+            <!--                         <i class="fa-solid fa-hourglass-half"></i> -->
+
+                            </a>
+                        </div>
                     </div>
                     <div class="col-md-2 box">
                         <div class="icon-box box-info">
                             <div class="icon-box-inner">
-                              <a href="https://play.google.com/store/apps/details?id=com.goplaymarket.dza" class="cta-link">
-                                <img src="./assets/Algeria.png" alt="Algeria Logo" class="logo2">
+                                <a href="https://play.google.com/store/apps/details?id=com.goplaymarket.dza" class="cta-link">
+                                    <img src="./assets/Algeria.png" alt="Algeria Logo" class="logo2">
                                 </a>
                             </div>
                         </div>
                         <h5>Algeria</h5>
-                         
+                        <div class="app-store-icons">
+                            <a href="https://play.google.com/store/apps/details?id=com.goplaymarket.dza" class="app-store-icon android">
+                                <i class="fab fa-android"></i>
+                            </a>
+                            <a href="https://apps.apple.com/dz/app/go-play-market/id6499268558?l=fr-FR" class="app-store-icon apple">
+                                <i class="fab fa-apple"></i>
+                            </a>
+                        </div>
                     </div>
                     <div class="col-md-2 box">
                         <div class="icon-box box-danger">
                             <div class="icon-box-inner">
-                                     <a href="https://bit.ly/418VLGz" class="cta-link">
-                                <img src="./assets/iraq1.png" alt="Iraq Logo" class="logo2">
+                                <a href="https://bit.ly/418VLGz" class="cta-link">
+                                    <img src="./assets/iraq1.png" alt="Iraq Logo" class="logo2">
                                 </a>
                             </div>
                         </div>
-                      <h5>Iraq</h5>
-                         
+                        <h5>Iraq</h5>
+                        <div class="app-store-icons">
+                            <a href="https://bit.ly/418VLGz" class="app-store-icon android">
+                                <i class="fab fa-android"></i>
+                            </a>
+<!--                             <a href="https://bit.ly/418VLGz" class="app-store-icon apple">
+                                <i class="fab fa-apple"></i> -->
+                            </a>
+                        </div>
                     </div>
                     <div class="col-md-2 box">
                         <div class="icon-box box-info">
                             <div class="icon-box-inner">
-                             <a href="https://play.google.com/store/apps/details?id=com.goplaymarket.mdv&pcampaignid=web_share" class="cta-link">
-                                <img src="./assets/Madlives.png" alt="Madlives Logo" class="logo2">
+                                <a href="https://play.google.com/store/apps/details?id=com.goplaymarket.mdv&pcampaignid=web_share" class="cta-link">
+                                    <img src="./assets/Madlives.png" alt="Madlives Logo" class="logo2">
                                 </a>
                             </div>
                         </div>
                         <h5>Madlives</h5>
-                        
+                        <div class="app-store-icons">
+                            <a href="https://play.google.com/store/apps/details?id=com.goplaymarket.mdv&pcampaignid=web_share" class="app-store-icon android">
+                                <i class="fab fa-android"></i>
+                            </a>
+                            <a href="https://apps.apple.com/us/app/go-play-market-maldives/id6502251807" class="app-store-icon apple">
+                                <i class="fab fa-apple"></i>
+                            </a>
+                        </div>
                     </div>
                     <div class=" col-md-12 box margin"><em>Download now & get a chance to get digital voucher gift via registered email from Karti Store </em></div>
-
-            
+                </div>
+            </div>
         </div>
+    </div>
     <div class="container">
         <div class="row mt-5" style="margin-left: 25%">
         <div class="col-md-6"><h4 class=" underline">Available Now</h4>
-            <img  src="./assets/playstore2.png" alt="Logo" class="playstore" >
+         
+            <img  src="./assets/apple.png" alt="Logo"  class="apple" >
+            <img  src="./assets/google-play.png" alt="Logo" class="huawei" >
              </div>
              <div class="col-md-6"><h4 class=" underline" >Available Soon</h4>
-                <img  src="./assets/apple.png" alt="Logo"  class="apple" >
                 <img  src="./assets/huawei.png" alt="Logo"  class="huawei" >
                  </div>
 
